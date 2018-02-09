@@ -1,0 +1,3 @@
+Strategy and VCA are considered as old models. These need to be updated.
+- The images folder needs to be uploaded to incorporate new icons.
+- exerciseModule > exerciseModule.resources needs to be uploaded. exercisemodule_hype_generated_script.js has been updated with new VCA info (the text size had to be changed slightly). Also, new pictures have been used here as well. 

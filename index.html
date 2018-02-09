@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>INFOSYS 110: Business Computing Games</title>
+
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="apple-itunes-app" content="app-id=633896250, app-argument=www.viiastudio.com/dnuis">
+
+<link rel="stylesheet" href="css/cupertino/jquery-ui-1.9.2.custom.css"/>
+<link rel="stylesheet" href="css/stylesheet.css"/>
+
+</head>
+<body>
+<div id="wrapper">
+  <div id="main">
+  	<div id="progress"></div>
+    <div id="header" class="ui-widget-header ui-corner-top">
+      <h2 class="title">INFOSYS 110: Business Computing Games</h2>
+    </div>
+    <div id="content">
+      <div class="output ui-helper-clearfix">
+        <div class="case-logo"></div>
+        <div class ="case-info">
+          <div class = "case-brand"></div>
+          <div class = "case-industry"></div>
+          <div class = "case-vision"></div>
+        </div>
+        <div class="ui-helper-clearfix">&nbsp;</div>
+        <div class="ui-button-text">
+          <button title="SwitchCase" class="btn-switch ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only"><span class="ui-button-text">Switch Case</span></button>
+        </div>
+      </div>
+      <div id="exercises" class="ui-helper-clearfix">
+        <div id="portersFive" class="game-exercise"><img id="ex2" src="images/porters_five_icon.png"/><p class="game-title">Industry Structure</p></div>
+        <div id="strategyQuadrant" class="game-exercise"><img id="ex1" src="images/strategy_quadrant_icon.png"/><p class="game-title">Strategy</p></div>
+        <div id="valueChain" class="game-exercise"><img id="ex3" src="images/value_chain_icon.png"/><p class="game-title">Value Chain</p></div>
+        <div id="businessProcess" class="game-exercise"><img id="ex4" src="images/business_process_icon.png"/><p class="game-title">Business Processes</p></div>
+        <div id="systemsOrgUnits" class="game-exercise"><img id="ex5" src="images/systems_org_units_icon.png"/><p class="game-title">Systems</p></div>
+      </div>
+    </div>
+    <!--exercise container -->
+    <div id="game-exercise-ctn">
+    	<!--<div class="game-exercise-exit ui-state-default ui-corner-all"><span class="ui-icon ui-icon-close"></span></div>-->
+        <div id="game-wrapper">
+            <div class="output">
+                <div class="case-logo"></div>
+                <div class ="case-info">
+                  <div class = "case-brand"></div>
+                  <div class = "case-industry"></div>
+                  <div class = "case-vision"></div>
+                </div>
+                <div class="btn-group-ctn ui-button-text">
+                  <button title="Switch Case" class="btn-switch ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only ui-helper-clearfix"><span class="ui-button-text">Switch Case</span></button>
+                  <button title="Next Exercise" class="btn-next-exercise ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only ui-helper-clearfix"><span class="ui-button-text">Next Exercise</span></button>
+                  <button title="Main Menu" class="btn-main-menu game-exercise-exit ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only ui-helper-clearfix"><span class="ui-button-text">Main Menu</span></button>
+                </div>
+              </div>
+              <div class="exercise-output">
+              	<div class="exercise-wrapper">
+              	<!--<div id="game-st-chart" style="background-image:url(images/strategy_quadrant_bg.png);width:360px;height:360px;position:relative;">
+                    <div id="game-st-focused-low-cost" style="position:absolute;left:65px;bottom:40px"><img src="images/strategy_quadrant_flco.png" alt="focusedLowCost"></div>
+                    <div id="game-st-focused-high-cost" style="position:absolute;right:30px;bottom:40px"><img src="images/strategy_quadrant_fhco.png" alt="focusedHighCost"></div>
+                    <div id="game-st-differentiation" style="position:absolute;right:30px;top:50px"><img src="images/strategy_quadrant_diff.png" alt="differentiation"></div>
+                    <div id="game-st-cost-leadership" style="position:absolute;left:65px;top:50px"><img src="images/strategy_quadrant_clsh.png" alt="costLeadership"></div>
+                 </div>-->
+                 
+                <!-- ================ Hype Module ================ -->
+                    <div id="exercisemodule_hype_container" style="position:relative;overflow:hidden;width:650px;height:380px;">
+                        <script type="text/javascript" charset="utf-8" src="exerciseModule/exerciseModule.resources/exercisemodule_hype_generated_script.js?45364"></script>
+                    </div>
+                <!-- ================ EOF Hype Module ================ -->
+                
+                 </div>
+                 <div class="exercise-output-msg ui-state-error ui-corner-all"><p>some messages here!</p></div>
+              </div>
+        </div>
+    </div>
+    <!--video popup dialog -->
+    <div id="video-popup-dialog">
+        <div id="ytPlayer-wrapper"></div>
+    </div>
+    
+    <div id="footer" class="ui-widget-content ui-corner-bottom">
+      	<p>Business Computing Games, V1.3b (beta) by <a href="mailto:fang@viiastudio.com">Fang Gu</a> | Powered by Max Rohde&apos;s <a href="http://appjangle.com/" target="_blank">Appjangle</a> | Team led by <a href="mailto:d.sundaram@auckland.ac.nz">David Sundaram</a> | Supported by <a href="mailto:m.myers@auckland.ac.nz">Michael Myers</a> and the DNUIS and INFOSYS 110 Teams</p>
+    </div>
+  </div>
+</div>
+
+<script src="https://appjangle.com/js/v01/appjangle/appjangle.nocache.js"></script>
+<!--<script src="js/appjangle.nocache.js"></script>-->
+<script src="js/jquery-1.8.3.js"></script>
+<script src="js/jquery-ui-1.9.2.custom.js"></script>
+<!--<script src="js/gamedata.js"></script>-->
+<script src="http://u1.linnk.it/qc8sbw/usr/apps/textsync/docs/110-game-data.value.js"></script>
+<script src="js/app.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37502537-1']);
+  _gaq.push(['_setDomainName', 'viiastudio.com']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
+<!-- one.end -->
+
+
