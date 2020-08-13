@@ -1,0 +1,187 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	font: 80% "Trebuchet MS", sans-serif;
+	margin: 50px;
+}
+.hover-fx{
+	opacity:.5;
+}
+#dialog-link {
+	padding: .4em 1em .4em 20px;
+	text-decoration: none;
+	position: relative;
+}
+#dialog-link span.ui-icon {
+	margin: 0 5px 0 0;
+	position: absolute;
+	left: .2em;
+	top: 50%;
+	margin-top: -8px;
+}
+#icons {
+	margin: 0;
+	padding: 0;
+}
+#icons li {
+	margin: 2px;
+	position: relative;
+	padding: 4px 0;
+	cursor: pointer;
+	float: left;
+	list-style: none;
+}
+#icons span.ui-icon {
+	float: left;
+	margin: 0 4px;
+}
+#wrapper {
+}
+#main {
+	overflow: hidden;
+	margin: auto;
+	width: 960px;
+	height: auto;
+	position:relative;
+}
+#content, #game-exercise-ctn {
+	background-color: #fff;
+	padding:5px;
+	border: 1px solid #ddd;
+	border-top-width:0;
+	border-bottom-width:0;
+	height: 508px;
+}
+#header, #footer {
+	width: 958px;
+	/*height:36px;*/
+	color: #666;
+	
+}
+#footer {
+	position:absolute;
+	bottom:0;
+	text-align:center;
+	font-size:11px;
+	background-color: #ccc;
+}
+h2.title {
+	text-align:center;
+	font-size:2em;
+	line-height:36px;
+	margin: auto;
+	padding: 0;
+}
+.output {
+	height: auto;
+	clear:both;
+}
+.case-logo, .case-info {
+	float:left;
+	margin:10px 10px 0 10px;
+}
+.case-logo {
+	position:relative;
+	background-color:white;
+	height: 178px;
+	width:238px;
+	overflow:hidden;
+	text-align:center;
+	border: solid 1px #ccc;
+	cursor:pointer;
+}
+.case-logo span{
+	position:absolute;
+	right:0;
+	bottom:0;
+	background-image:url(images/icon_video_blue.png);
+	background-size:contain;
+	width:32px;
+	height: 32px;
+}
+.case-logo img {
+	max-width:220px;
+	max-height:160px;
+	height:auto;
+	width:auto;
+	margin:10px;
+}
+.case-info {
+	margin-left:20px;
+}
+.case-info h4 {
+	margin:0.5em 0 0.5em 0;
+	color:#999;
+}
+.case-info p {
+	font-size: 1.2em;
+	margin: 0.2em 0 1em 0;
+}
+.btn-group-ctn{
+	width:260px;	
+}
+.btn-switch, .btn-next-exercise, .btn-main-menu {
+	width:240px;
+	margin:10px 10px 0 10px;
+}
+#game-wrapper>div{
+	float:left;
+}
+#game-wrapper .output{
+	width:260px;	
+}
+#game-wrapper .exercise-output{
+	margin:10px;
+	padding:5px;
+	width:658px;
+}
+#game-wrapper .case-info{
+	height:120px;
+	overflow:auto;
+}
+#game-wrapper .case-info p, #game-wrapper .case-info h4{
+	margin:0.5em 0;
+	font-size:10px;
+	display:inline;	
+}
+
+#exercises {
+	width:948px;
+	margin:20px 0 10px;
+	padding:0;
+}
+.game-exercise {
+	text-align:center;
+	border: 1px solid #ccc;
+	float:left;
+	margin:8px 23px 8px;
+	width:140px;
+	cursor:pointer;
+}
+#exercises .game-title {
+	margin:5px auto;
+	font-size:10px
+}
+#game-exercise-ctn {
+	background-color:#eee;
+	position:absolute;
+	top:38px;
+	width:948px;
+	left:0;
+}
+#game-wrapper .exercise-output{
+	background-color:#fff;
+	height:424px;
+	text-align:center;
+	position:relative;	
+}
+#game-wrapper .exercise-output-msg{
+	left: 0;
+	right: 0;
+	bottom:0;
+	width:90%;
+	position:absolute;
+	margin:auto;
+	padding:0 20px;
+}
+
